@@ -1,0 +1,82 @@
+e0:
+answers = []
+
+e1
+
+print(*answers)
+
+e1:
+e10	# output single element among input
+----
+e20	# select some elements among input
+----
+e30	# number of elements remain same (e.g., sort, lambda)
+
+e10:	# output single element among input
+answers.append( e101 )	# single output
+
+e101:
+e1011	# max or min
+----
+e1012	# head or tail
+----
+e1013	# add or count items
+----
+e1014	# determine if condition fulfills
+
+e1011:	# max or min
+max(input)
+----
+min(input)
+
+e1012:	# head or tail
+input[0]
+----
+input[-1]
+
+e1013:	# add or count items
+sum( i for i in input )
+----
+sum( 1 for i in input )
+
+e1014:	# determine if condition fulfills
+any( e200 for i in input )
+
+e20:	# select some elements among input
+answers = [ i for i in input if e200 ]
+
+e200:	# conditions
+i>=0
+----
+i<0
+----
+i>=2
+----
+i<2
+----
+i%2==0
+
+e30:	# number of elements remain same (e.g., sort, lambda)
+e301	# apply lambda function
+----
+e302	# sort or reverse
+
+e301:
+answers = [ e3011 for i in input ]		# lambda function
+
+e302:
+answers = sorted(input, reverse= e3021 )	# sort
+----
+answers = input[::-1]				# reverse
+
+e3011:	# lambda functions
+-i
+----
+abs(i)
+----
+i+2
+
+e3021:	# True or False
+True
+----
+False
