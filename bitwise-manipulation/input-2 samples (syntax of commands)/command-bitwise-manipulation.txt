@@ -1,0 +1,22 @@
+e0:
+answers = e1
+print(answers)
+
+e1:
+input[0]		# 1st input
+----
+input[1]		# 2nd input
+----
+( e1 + e1 )	# addition
+----
+( e1 & e1 )	# bitwise AND
+----
+( e1 | e1 )	# bitwise OR
+----
+( e1 ^ e1 )	# bitwise XOR
+----
+( ~e1 )		# bitwise NOT
+----
+( e1 >> e1 )	# Shift to the left
+----
+( e1 << e1 )	# Shift to the right
