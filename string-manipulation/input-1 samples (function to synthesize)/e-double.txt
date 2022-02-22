@@ -1,0 +1,10 @@
+abcd
+abcdabcd
+star
+starstar
+synthesis
+synthesissynthesis
+grammar
+grammargrammar
+program
+programprogram

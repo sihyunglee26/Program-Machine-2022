@@ -1,0 +1,27 @@
+e0:
+answers = e1
+print(answers)
+
+e1:
+input
+----
+' '
+----
+'-'
+----
+'.'
+----
+input[ e2 : e2 ]		# return substring of input from index p1 ~ p2
+----
+input.replace( e1 , e1 )	# replace 1st occurence of p1 with p2
+----
+e1 + e1			# concatenation of two strings, p1 and p2
+
+e2:
+0
+----
+( e2 + 1 )		# represent positive integers
+----
+len( e1 )		# string length
+----
+( e1 ).find( e1 )		# find index of substring

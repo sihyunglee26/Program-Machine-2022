@@ -1,0 +1,10 @@
+abcd
+a
+star
+s
+synthesis
+s
+grammar
+g
+program
+p
