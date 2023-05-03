@@ -14,4 +14,4 @@ This repository contains sample files for the program-synthesis system based on 
 |[/building tree model from input 2](https://github.com/sihyunglee26/Program-Machine-2022/tree/main/building%20tree%20model%20from%20input%202)| codes for building a tree model from Input #2|
 
 ### Publications
-IEEE Access, [/Program Synthesis through Learning the Input-Output Behavior of Commands](https://doi.org/10.1109/access.2022.3183091) [video]
+IEEE Access, [Program Synthesis through Learning the Input-Output Behavior of Commands](https://doi.org/10.1109/access.2022.3183091) [[video](https://youtu.be/HSDnCNaT0sA)]
